@@ -22757,7 +22757,7 @@ pub mod i2c1 {
         impl<'a> _NBYTESW<'a> {
             #[doc = r" Writes raw bits to the field"]
             #[inline]
-            pub unsafe fn bits(self, value: u8) -> &'a mut W {
+            pub fn bits(self, value: u8) -> &'a mut W {
                 const MASK: u8 = 0xff;
                 const OFFSET: u8 = 16;
                 self.w.bits &= !((MASK as u32) << OFFSET);
@@ -22925,7 +22925,7 @@ pub mod i2c1 {
         impl<'a> _SADD1W<'a> {
             #[doc = r" Writes raw bits to the field"]
             #[inline]
-            pub unsafe fn bits(self, value: u8) -> &'a mut W {
+            pub fn bits(self, value: u8) -> &'a mut W {
                 const MASK: u8 = 0x7f;
                 const OFFSET: u8 = 1;
                 self.w.bits &= !((MASK as u32) << OFFSET);
@@ -25416,7 +25416,7 @@ pub mod i2c1 {
         impl<'a> _TXDATAW<'a> {
             #[doc = r" Writes raw bits to the field"]
             #[inline]
-            pub unsafe fn bits(self, value: u8) -> &'a mut W {
+            pub fn bits(self, value: u8) -> &'a mut W {
                 const MASK: u8 = 0xff;
                 const OFFSET: u8 = 0;
                 self.w.bits &= !((MASK as u32) << OFFSET);
