@@ -10202,19 +10202,6 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <description>DMA1 clock enable</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues>
-                <name>ENABLED</name>
-                <enumeratedValue>
-                  <name>Disabled</name>
-                  <description>Disabled.</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>Enabled</name>
-                  <description>Enabled.</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
             </field>
             <field>
               <name>SRAMEN</name>
@@ -10222,56 +10209,42 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               enable</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>FLITFEN</name>
               <description>FLITF clock enable</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>CRCEN</name>
               <description>CRC clock enable</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>IOPAEN</name>
               <description>I/O port A clock enable</description>
               <bitOffset>17</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>IOPBEN</name>
               <description>I/O port B clock enable</description>
               <bitOffset>18</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>IOPCEN</name>
               <description>I/O port C clock enable</description>
               <bitOffset>19</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>IOPFEN</name>
               <description>I/O port F clock enable</description>
               <bitOffset>22</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="ENABLED">
-              </enumeratedValues>
             </field>
           </fields>
         </register>
@@ -10290,8 +10263,6 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <description>SYSCFG clock enable</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>ADCEN</name>
@@ -10299,56 +10270,42 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               enable</description>
               <bitOffset>9</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>TIM1EN</name>
               <description>TIM1 Timer clock enable</description>
               <bitOffset>11</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>SPI1EN</name>
               <description>SPI 1 clock enable</description>
               <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>USART1EN</name>
               <description>USART1 clock enable</description>
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>TIM15EN</name>
               <description>TIM15 timer clock enable</description>
               <bitOffset>16</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>TIM16EN</name>
               <description>TIM16 timer clock enable</description>
               <bitOffset>17</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>TIM17EN</name>
               <description>TIM17 timer clock enable</description>
               <bitOffset>18</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>DBGMCUEN</name>
@@ -10356,8 +10313,6 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               enable</description>
               <bitOffset>22</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
           </fields>
         </register>
@@ -10376,32 +10331,24 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <description>Timer 3 clock enable</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>TIM6EN</name>
               <description>Timer 6 clock enable</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>TIM7EN</name>
               <description>TIM7 timer clock enable</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>TIM14EN</name>
               <description>Timer 14 clock enable</description>
               <bitOffset>8</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>WWDGEN</name>
@@ -10409,72 +10356,54 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               enable</description>
               <bitOffset>11</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>SPI2EN</name>
               <description>SPI 2 clock enable</description>
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>USART2EN</name>
               <description>USART 2 clock enable</description>
               <bitOffset>17</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>USART3EN</name>
               <description>USART3 clock enable</description>
               <bitOffset>18</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>USART4EN</name>
               <description>USART4 clock enable</description>
               <bitOffset>19</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>USART5EN</name>
               <description>USART5 clock enable</description>
               <bitOffset>20</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>I2C1EN</name>
               <description>I2C 1 clock enable</description>
               <bitOffset>21</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>I2C2EN</name>
               <description>I2C 2 clock enable</description>
               <bitOffset>22</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>USBRST</name>
               <description>USB interface clock enable</description>
               <bitOffset>23</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
             <field>
               <name>PWREN</name>
@@ -10482,8 +10411,6 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               enable</description>
               <bitOffset>28</bitOffset>
               <bitWidth>1</bitWidth>
-              <enumeratedValues derivedFrom="AHBENR.DMA1EN.ENABLED">
-              </enumeratedValues>
             </field>
           </fields>
         </register>
